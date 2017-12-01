@@ -86,14 +86,14 @@ def handle_message(event):
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url='https://via.placeholder.com/800x800',
+                    image_url='https://static1.squarespace.com/static/552a33efe4b0d2b32af7b719/552a5efbe4b010138baa93bf/552a5f2ee4b03a9e558745b2/1433493830412/Diesel+%5B4M%5D+%28Norwegian+Forest+Cat+118.jpg',
                     action=MessageTemplateAction(
                         label='Product 1',
                         text='/buy product1',
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url='https://via.placeholder.com/800x800',
+                    image_url='https://ih1.redbubble.net/image.82868105.8543/flat,800x800,070,f.u3.jpg',
                     action=MessageTemplateAction(
                         label='Product 2',
                         text='/buy product2',
